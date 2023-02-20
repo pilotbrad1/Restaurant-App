@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    font-family: 'Smythe', cursive;
+} 
+
+header {
+    background-image: url("burger.jpg");
+    background-size: 600px 400px;
+    background-size: auto;
+    color: white;
+    font-weight: #FFFFFF;  
+    padding-top: 46px;
+    padding-left: 46px;
+    padding-bottom: 70px;
+    max-height: 167px;
+    }
+    
+header p {
+    font-size: 22.4px;
+    line-height: 13.8px;
+}   
+
+header h2 {
+    font-size: 39px;
+    line-height: 24px;  
+} 
+
+button {
+    color: #3C3C3C;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+    background: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 24px;
+}
+.add-btn    {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 25px;
+
+}
+
+.meals-container {
+    display: flex;
+    margin-left: 43px;
+    margin-top: 45px;
+    margin-right: 46px;
+    border-bottom: 2px #D2D2D2 solid;
+    width: 508px;
+
+}
+
+.button-div {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 82px;
+    align-items: center;
+    
+}
+
+.meals-container p {
+    margin-top: 0;    
+
+
+}
+
+.meal-info-div {
+    /* border: 1px solid green; */
+    margin-left: 31px;
+    padding-top: 15px;
+    
+}
+
+
+.emoji-div {
+    font-size: 79px;
+    opacity: 72%;
+    padding-top: 15px;
+}
+
+.name   {
+    font-size: 26px;
+    color: #000000;
+    line-height: 17px;
+    padding-top: 15px;
+    margin-bottom: 9px;
+
+}
+
+.ingredients    {
+    font-size: 16px;
+    color: #8B8B8B;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    line-height: 24px;
+    margin-bottom: 8px;
+
+}
+
+.price {
+    font-size: 20px;
+    color: #000000;
+    line-height: 24px;
+    margin-bottom: 51px;
+}
+
+/* Order confirmation */
+.order-header {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 64px;
+    margin-left: 46px;
+    width: 508px;
+
+}
+
+.order-detail-container {
+    font-size: 28px;
+    margin-left: 46px;
+    width: 508px;
+    display: flex;
+    color: #000000;
+    border-bottom: 2px solid #393333;
+    padding-bottom: px;
+}
+
+.order-detail-container p {
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.remove-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.order-price {
+    font-size: 24px;
+    margin-left: 10px;
+    margin: auto 0px auto auto;
+}
+
+.total-cost {
+    font-size: 28px;
+    margin-left: 46px;
+    display: flex;
+    color: #000000;
+    justify-content: space-between;
+    margin-right: 46px;
+}
+.total-cost {
+    width: 508px;
+}
+
+/* complete order button */
+
+.confirm-btn {
+    background-color: #16DB99;
+    color: #FFFFFF;
+    width: 508px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 46px;
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
