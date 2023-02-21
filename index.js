@@ -57,7 +57,7 @@ document.addEventListener('click', function(e) {
 
 function addItem(mealId, orderArray) {
     const targetMeal = menuArray.filter(function(meal) {
-        return meal.id === mealId
+        return meal.id == mealId
     })
     console.log(targetMeal)
     }
