@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
        <link rel="stylesheet" href="index.css">
@@ -15,18 +16,32 @@
         </header>
         <div id="menu-div" class="menu-div">
              <!-- Menu Goes Here -->
-        </div>  
-        <div class='order-container' id='order-container'>
-             <!-- Order section goes here -->  
         </div>
-        <div class="total-cost" id="total-cost">
-            <p class="price-title" id="price-title">Total price</p>
-            <p class="price-value" id="price-value">$total</p>
+        <div class="order-master hidden" id="order-master"> 
+            <p class="order-header" id="order-header">Your order</p>
+            <div class='order-container' id='order-container'>
+                    <!-- Order section goes here -->           
+            </div>
+            <div class="total-cost" id="total-cost">
+                <p class="price-title" id="price-title">Total price</p>
+                <p class="price-value" id="price-value">$total</p>
+            </div>
+            <div class="confirm-btn" id="confirm-btn">
+                Complete order
+            </div> 
+        </div> 
+        <div class="payment-modal hidden" id="payment-modal">
+            <p class="payment-details" id="payment-details">Enter card details</p>
+            <input type="text" class="text" id="customer-name" placeholder='Enter your name'>
+            <input type="text" class="text" placeholder='Enter card number'>
+            <input type="text" class="text" placeholder='Enter CVV'>
+            <div class="payment-btn" id="payment-btn">
+                Pay
+            </div> 
         </div>
-        <div class="confirm-btn" id="confirm-btn">
-        Complete order
-         </div>
-        
+        <div class="thank-you hidden" id="thank-you">
+            Thanks, ${customerName} Your order is on it's way
+        </div>
 	<script src="index.js" type="module"></script>
     </body>
 </html>
