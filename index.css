@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: 600px;
     font-family: 'Smythe', cursive;
@@ -53,21 +53,16 @@ input {
     border-radius: 3px;
     width: 440px;
 }
-.add-btn    {
-    display: flex;
-    margin-left: auto;
-    margin-right: 0;
-    margin-top: 25px;
 
+main {
+    width: 508px;
+    margin: 0 auto;
 }
 
 .meals-container {
     display: flex;
-    margin-left: 43px;
     margin-top: 45px;
-    margin-right: 46px;
     border-bottom: 2px #D2D2D2 solid;
-    width: 508px;
 
 }
 
@@ -83,8 +78,6 @@ input {
 
 .meals-container p {
     margin-top: 0;    
-
-
 }
 
 .meal-info-div {
@@ -133,15 +126,10 @@ input {
     text-align: center;
     margin-top: 45px;
     margin-bottom: 64px;
-    margin-left: 46px;
-    width: 508px;
-
 }
 
 .order-detail-container {
     font-size: 28px;
-    margin-left: 46px;
-    width: 508px;
     display: flex;
     color: #000000;
 }
@@ -149,6 +137,33 @@ input {
 .order-detail-container p {
     margin-top: 0;
     margin-bottom: 22px;
+}
+
+.order-price {
+    font-size: 24px;
+    margin-left: 10px;
+    margin: auto 0px auto auto;
+}
+
+.total-cost {
+    font-size: 28px;
+    display: flex;
+    color: #000000;
+    justify-content: space-between;
+    border-top: 2px solid #393333;
+}
+
+/* buttons */
+
+.add-btn    {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 25px;
+}
+
+.add-btn:hover, .confirm-btn:hover, .payment-btn:hover, .remove-btn:hover {
+    cursor: pointer;
 }
 
 .remove-btn {
@@ -161,33 +176,12 @@ input {
     line-height: 20px;
 }
 
-.order-price {
-    font-size: 24px;
-    margin-left: 10px;
-    margin: auto 0px auto auto;
-}
-
-.total-cost {
-    font-size: 28px;
-    margin-left: 46px;
-    display: flex;
-    color: #000000;
-    justify-content: space-between;
-    margin-right: 46px;
-    border-top: 2px solid #393333;
-    width: 508px;
-}
-
-/* complete order button */
-
 .confirm-btn {
     background-color: #16DB99;
     color: #FFFFFF;
-    width: 508px;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: 46px;
     height: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -207,18 +201,18 @@ input {
     border: 1px solid #16DB99;
     margin-top: 46px;
     border-radius: 3px;
-    max-width: 470px;
+    width: 476px;
 }
 
 
 
 .payment-modal {
+    width: 524px;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 524px;
     height: 542px;
     text-align: center;
     margin: auto;
@@ -235,7 +229,6 @@ input {
 }
 .thank-you {
     display: flex;
-    width: 504px;
     height: 120px;
     background-color: #ECFDF5;
     margin: auto;

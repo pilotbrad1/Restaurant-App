@@ -92,6 +92,7 @@ function removeItem(arrayId, orderArray) {
     getPrice()
 }
 
+    //Gets the total value of the order
 function getPrice()  {     
     const totalCostArray = []
     for (let i=0; i <orderArray.length; i++) {
@@ -109,7 +110,6 @@ function render() {
 }
 
 render()
-
 
 
       
